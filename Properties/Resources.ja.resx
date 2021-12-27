@@ -117,6 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="MenuFile" xml:space="preserve">
+    <value>ファイル(_F)</value>
+  </data>
+  <data name="MenuFileQuit" xml:space="preserve">
+    <value>終了(_Q)</value>
+  </data>
+  <data name="MenuSetting" xml:space="preserve">
+    <value>設定(_S)</value>
+  </data>
+  <data name="MenuSettingMdFormat" xml:space="preserve">
+    <value>月日フォーマット</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>表示(_V)</value>
+  </data>
+  <data name="MenuViewAot" xml:space="preserve">
+    <value>常に手前に表示する</value>
+  </data>
+  <data name="MenuViewHideMenu" xml:space="preserve">
+    <value>メニューを隠す(_H) (Altキーを押すと再表示)</value>
+  </data>
+  <data name="MonthDayFormatDayHyphenMonth" xml:space="preserve">
+    <value>日-月</value>
+  </data>
+  <data name="MonthDayFormatDaySlashMonth" xml:space="preserve">
+    <value>日/月</value>
+  </data>
+  <data name="MonthDayFormatMonthHyphenDay" xml:space="preserve">
+    <value>月-日</value>
+  </data>
+  <data name="MonthDayFormatMonthSlashDay" xml:space="preserve">
+    <value>月/日</value>
+  </data>
   <data name="QueryString" xml:space="preserve">
     <value>アルファリアクター</value>
   </data>

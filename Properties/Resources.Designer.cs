@@ -19,7 +19,7 @@ namespace TodaysAlphaReactor.Properties {
     // または Visual Studio のようなツールを使用して自動生成されました。
     // メンバーを追加または削除するには、.ResX ファイルを編集して、/str オプションと共に
     // ResGen を実行し直すか、または VS プロジェクトをビルドし直します。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -57,6 +57,105 @@ namespace TodaysAlphaReactor.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   _File に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuFile {
+            get {
+                return ResourceManager.GetString("MenuFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   _Quit に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuFileQuit {
+            get {
+                return ResourceManager.GetString("MenuFileQuit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   _Setting に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuSetting {
+            get {
+                return ResourceManager.GetString("MenuSetting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Month Day Format に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuSettingMdFormat {
+            get {
+                return ResourceManager.GetString("MenuSettingMdFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   _View に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuView {
+            get {
+                return ResourceManager.GetString("MenuView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Always on Top に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuViewAot {
+            get {
+                return ResourceManager.GetString("MenuViewAot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   _Hide Menu (Press Alt key to redisplay) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MenuViewHideMenu {
+            get {
+                return ResourceManager.GetString("MenuViewHideMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Day-Month に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MonthDayFormatDayHyphenMonth {
+            get {
+                return ResourceManager.GetString("MonthDayFormatDayHyphenMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Day/Month に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MonthDayFormatDaySlashMonth {
+            get {
+                return ResourceManager.GetString("MonthDayFormatDaySlashMonth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Month-Day に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MonthDayFormatMonthHyphenDay {
+            get {
+                return ResourceManager.GetString("MonthDayFormatMonthHyphenDay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Month/Day に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MonthDayFormatMonthSlashDay {
+            get {
+                return ResourceManager.GetString("MonthDayFormatMonthSlashDay", resourceCulture);
             }
         }
         

@@ -8,7 +8,25 @@
         xmlns:local="clr-namespace:TodaysAlphaReactor"
         mc:Ignorable="d"
         Title="{x:Static prop:Resources.WindowTitle}" Height="480" Width="640">
-    <Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" x:Name="Menu">
+            <MenuItem Header="{x:Static prop:Resources.MenuFile}">
+                <MenuItem Header="{x:Static prop:Resources.MenuFileQuit}" Click="MenuItemQuit_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="{x:Static prop:Resources.MenuView}">
+                <MenuItem Header="{x:Static prop:Resources.MenuViewAot}" x:Name="MenuViewAot" IsCheckable="True" Click="MenuItemAot_Click"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="{x:Static prop:Resources.MenuViewHideMenu}" x:Name="MenuHideMenu" IsCheckable="True" Click="MenuHideMenu_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="{x:Static prop:Resources.MenuSetting}">
+                <MenuItem Header="{x:Static prop:Resources.MenuSettingMdFormat}">
+                    <MenuItem Header="{x:Static prop:Resources.MonthDayFormatMonthSlashDay}" x:Name="MenuMonthDayFormatMonthSlashDay" IsCheckable="True" Click="MenuItemMdFormat_Click" />
+                    <MenuItem Header="{x:Static prop:Resources.MonthDayFormatMonthHyphenDay}" x:Name="MenuMonthDayFormatMonthHyphenDay" IsCheckable="True" Click="MenuItemMdFormat_Click" />
+                    <MenuItem Header="{x:Static prop:Resources.MonthDayFormatDaySlashMonth}" x:Name="MenuMonthDayFormatDaySlashMonth" IsCheckable="True" Click="MenuItemMdFormat_Click" />
+                    <MenuItem Header="{x:Static prop:Resources.MonthDayFormatDayHyphenMonth}" x:Name="MenuMonthDayFormatDayHyphenMonth" IsCheckable="True" Click="MenuItemMdFormat_Click" />
+                </MenuItem>
+            </MenuItem>
+        </Menu>
         <Wpf:WebView2 x:Name="wvMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-    </Grid>
+    </DockPanel>
 </Window>

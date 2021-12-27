@@ -117,6 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="MenuFile" xml:space="preserve">
+    <value>_File</value>
+  </data>
+  <data name="MenuFileQuit" xml:space="preserve">
+    <value>_Quit</value>
+  </data>
+  <data name="MenuSetting" xml:space="preserve">
+    <value>_Setting</value>
+  </data>
+  <data name="MenuSettingMdFormat" xml:space="preserve">
+    <value>Month Day Format</value>
+  </data>
+  <data name="MenuView" xml:space="preserve">
+    <value>_View</value>
+  </data>
+  <data name="MenuViewAot" xml:space="preserve">
+    <value>Always on Top</value>
+  </data>
+  <data name="MenuViewHideMenu" xml:space="preserve">
+    <value>_Hide Menu (Press Alt key to redisplay)</value>
+  </data>
+  <data name="MonthDayFormatDayHyphenMonth" xml:space="preserve">
+    <value>Day-Month</value>
+  </data>
+  <data name="MonthDayFormatDaySlashMonth" xml:space="preserve">
+    <value>Day/Month</value>
+  </data>
+  <data name="MonthDayFormatMonthHyphenDay" xml:space="preserve">
+    <value>Month-Day</value>
+  </data>
+  <data name="MonthDayFormatMonthSlashDay" xml:space="preserve">
+    <value>Month/Day</value>
+  </data>
   <data name="QueryString" xml:space="preserve">
     <value>"Alpha Reactor"</value>
   </data>
