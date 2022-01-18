@@ -72,19 +72,19 @@ namespace TodaysAlphaReactor
         private void LoadWindowBounds()
         {
             var settings = Properties.Settings.Default;
-            if (settings.WindowLeft >= 0 && (settings.WindowLeft + settings.WindowWidth) < SystemParameters.VirtualScreenWidth)
+            if (settings.WindowLeft >= 0)
             {
                 this.Left = settings.WindowLeft;
             }
-            if (settings.WindowTop >= 0 && (settings.WindowTop + settings.WindowHeight) < SystemParameters.VirtualScreenHeight)
+            if (settings.WindowTop >= 0)
             {
                 this.Top = settings.WindowTop;
             }
-            if (settings.WindowWidth > 0 && settings.WindowWidth <= SystemParameters.WorkArea.Width)
+            if (settings.WindowWidth > 0)
             {
                 this.Width = settings.WindowWidth;
             }
-            if (settings.WindowHeight > 0 && settings.WindowHeight <= SystemParameters.WorkArea.Height)
+            if (settings.WindowHeight > 0)
             {
                 this.Height = settings.WindowHeight;
             }
