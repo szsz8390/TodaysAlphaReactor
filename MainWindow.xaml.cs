@@ -113,7 +113,7 @@ namespace TodaysAlphaReactor
             today = today.AddHours(-4);
             var md = today.ToString(mdFormat.Format);
             var encodedMd = Uri.EscapeDataString(md);
-            var url = $"https://twitter.com/search?q={encodedQueryString}%20{encodedMd}&src=typed_query";
+            var url = $"https://twitter.com/search?q={encodedQueryString}%20{encodedMd}&src=typed_query&f=live";
             wvMain.Source = new Uri(url);
         }
 
